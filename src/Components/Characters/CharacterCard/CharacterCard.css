@@ -92,3 +92,11 @@ h3{
 .content >h3{
   font-size: 27px;
 }
+
+@media screen and (max-width: 520px) {
+  .contain{
+    
+
+  }
+  
+}

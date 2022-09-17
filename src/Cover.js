@@ -1,9 +1,7 @@
 import React from "react";
 import "./Cover.css";
 import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { Fade, Zoom } from "react-reveal";
-
 
 function Cover() {
   return (
@@ -26,13 +24,15 @@ function Cover() {
             <br />
             The Game of Thrones Wikipedia.
           </h3>
-        </Zoom >
+        </Zoom>
         <div className="buttonss">
           <Zoom delay={750}>
-            <Button style={{ margin: "5px" }} variant="outline-light">
-              <Link className="a" to={"/seasons"}>
-                Episodes
-              </Link>
+            <Button
+              style={{ margin: "5px" }}
+              variant="outline-light"
+              href="/episodes"
+            >
+              Episodes
             </Button>
 
             <Button

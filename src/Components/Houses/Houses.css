@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@200&family=Libre+Baskerville&family=Oxanium:wght@300&display=swap");
 .houses {
-  font-family: "GameOfThrones";
-  padding-top: 40px;
+  padding-top: 100px;
   font-weight: 500;
   font-size: 50px;
   color: aliceblue;
@@ -36,3 +35,16 @@
   font-family: "Oxanium", cursive;
 }
 
+.text >h1{
+  font-family: "GameOfThrones";
+}
+
+@media screen and (max-width:520px) {
+  .text >h1{
+    font-size: 42px;
+  }
+  .text>h2{
+    font-size: 25px;
+  }
+  
+}

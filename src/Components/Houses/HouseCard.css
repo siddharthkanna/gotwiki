@@ -26,3 +26,13 @@
 .text-content >h1{
     font-size: 80px;
 }
+@media screen and (max-width:520px) {
+    .text-content >h1{
+        font-size: 50px;
+    }
+
+    .text-content >h2{
+        font-size: 35px;
+    }
+    
+}

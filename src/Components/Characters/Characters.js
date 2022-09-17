@@ -22,7 +22,7 @@ function Characters() {
         setisLoading(true);
         setTimeout(() => {
           setisLoading(false);
-        }, 100);
+        }, 1000);
       })
       .catch((err) => {
         console.log(err);
@@ -39,7 +39,7 @@ function Characters() {
       </Fade>
 
       {isLoading ? (
-        <ScaleLoader size={30} color={"#F37A24"} loading={isLoading} />
+        <ScaleLoader size={15} color={"#F37A24"} loading={isLoading} />
       ) : (
         <Grid container spacing={1} justifyContent='center'>
           {characters.map((character) => (
