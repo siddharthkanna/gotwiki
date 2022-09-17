@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@200&family=Libre+Baskerville&family=Oxanium:wght@300&display=swap");
+.char {
+  position: relative;
+  font-family: "GameOfThrones";
+  padding-top: 215px;
+  color: aliceblue;
+  font-size: 50px;
+  text-shadow: 3px 3px black;
+}
+
+.all {
+  padding-bottom: 200px;
+  color: aliceblue;
+  font-weight: 200;
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+  font-family: "Indie Flower", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Oxanium", cursive;
+  text-shadow: 1.5px 1.5px black;
+  text-align: center;
+  position: relative;
+}
+
+.card:hover {
+  transition: 0.5s;
+}
+
+.charac {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://3.bp.blogspot.com/-TOJ14oFJH_I/XOPN7_n0B3I/AAAAAAAADCc/EBePJFD9SdoTs41QC0MR5zDgJMyA_7-AACKgBGAs/w4096-h2304-c/game-of-thrones-iron-throne-characters-uhdpaper.com-4K-70.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media screen and (max-width: 520px) {
+  .all {
+    font-size: 35px;
+  }
+  .char {
+    font-size: 35px;
+  }
+}

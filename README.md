@@ -1,3 +1,6 @@
+# GOTWIKI
+Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It became many people's favourite TV show thanks to it's amazing plot and characters.I've tried to create a responsive website whih shows the basic information of the episodes,characters and the houses.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
