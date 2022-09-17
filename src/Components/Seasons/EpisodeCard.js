@@ -1,6 +1,5 @@
 import React from "react";
 import "./EpisodeCard.css";
-import { Swiper, SwiperSlide } from "swiper/react";
 import imdb from './IMDb.png'
 function EpisodeCard(props) {
   return (

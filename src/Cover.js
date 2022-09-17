@@ -3,7 +3,7 @@ import "./Cover.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Fade, Zoom } from "react-reveal";
-import { Reveal } from "react-reveal";
+
 
 function Cover() {
   return (

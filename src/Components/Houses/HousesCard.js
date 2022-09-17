@@ -1,7 +1,7 @@
 import React from "react";
 import "./HouseCard.css";
 import { Parallax } from "react-parallax";
-import { height, width } from "@mui/system";
+
 
 function HousesCard(props) {
   return (
